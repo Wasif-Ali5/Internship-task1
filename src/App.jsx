@@ -1,11 +1,15 @@
 
-
+import Navbar from './components/Navbar/Navbar'
+import StudentCard from './components/Card/StudentCard'
+import Footer from './components/Footer/Footer'
 function App() {
  
   return (
-  <div className="h-screen bg-orange-300 flex justify-center items-center">
-    
-    <h1 className="text-4xl md:text-3xl font-bold font-serif tracking-wide">Welcome to the Student Management System</h1>
+  <div className="min-h-screen bg-blue-300 flex flex-col pt-24">
+   
+    <Navbar />
+    <StudentCard />
+    <Footer />
 
   </div>
   )
